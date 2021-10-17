@@ -20,7 +20,7 @@ LivroReceitas = [
    
 ]
 
-#cadastrar
+#cadastrarReceita
 @app.route("/cadastrar", methods=["POST","GET"])
 def Cadastro():
     if request.method == "GET":
